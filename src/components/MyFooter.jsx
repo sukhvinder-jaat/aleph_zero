@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const MyFooter = () => {
-  return (
-    <div>MyFooter</div>
-  )
-}
+  return <div className=" vh-100"></div>;
+};

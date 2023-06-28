@@ -4,7 +4,7 @@
   font-family: "Inter", sans-serif;
 }
 .ff_karla {
-  font-family: "Karla", sans-serif;
+  font-family: "Karla";
 }
 :root {
   /* font size  */
@@ -24,95 +24,97 @@
   --fs-10xl: 40px;
   --fs-11xl: 42px;
   /* color  */
-  --bg-body:#111B24;
-  --color-white:#FFFFFF;
-  --color-lightgray:#BCCBD6;
-  --color-lightgreen:#00CCAB;
-  --bg-line:#00EAC7;
+  --bg-body: #111b24;
+  --color-white: #ffffff;
+  --color-lightgray: #bccbd6;
+  --color-lightgreen: #00ccab;
+  --bg-line: #00eac7;
 }
 /* font size  */
-.fs_xsm{
-  font-size: var( --fs-xsm);
+.fs_xsm {
+  font-size: var(--fs-xsm);
 }
-.fs_sm{
+.fs_sm {
   font-size: var(--fs-sm);
 }
-.fs_md{
+.fs_md {
   font-size: var(--fs-md);
 }
-.fs_lg{
-  font-size: var( --fs-lg);
+.fs_lg {
+  font-size: var(--fs-lg);
 }
-.fs_xl{
+.fs_xl {
   font-size: var(--fs-xl);
 }
-.fs_2xl{
+.fs_2xl {
   font-size: var(--fs-2xl);
 }
-.fs_3xl{
-  
+.fs_3xl {
   font-size: var(--fs-3xl);
 }
-.fs_4xl{
+.fs_4xl {
   font-size: var(--fs-4xl);
 }
-.fs_5xl{
+.fs_5xl {
   font-size: var(--fs-5xl);
 }
-.fs_6xl{
+.fs_6xl {
   font-size: var(--fs-6xl);
 }
-.fs_7xl{
+.fs_7xl {
   font-size: var(--fs-7xl);
 }
-.fs_8xl{
+.fs_8xl {
   font-size: var(--fs-8xl);
 }
-.fs_9xl{
+.fs_9xl {
   font-size: var(--fs-9xl);
 }
-.fs_10xl{
+.fs_10xl {
   font-size: var(--fs-10xl);
 }
-.fs_11xl{
+.fs_11xl {
   font-size: var(--fs-11xl);
 }
 /* font weight  */
-.fw_300{
+.fw_300 {
   font-weight: 300;
 }
-.fw_400{
+.fw_400 {
   font-weight: 400;
 }
-.fw_500{
+.fw_500 {
   font-weight: 500;
 }
-.fw_600{
+.fw_600 {
   font-weight: 600;
 }
-.fw_700{
+.fw_700 {
   font-weight: 700;
 }
-.fw_800{
+.fw_800 {
   font-weight: 800;
 }
-.fw_900{
+.fw_900 {
   font-weight: 900;
 }
 /* colors  */
-.color_white{
+.color_white {
   color: var(--color-white);
 }
-.color_lightgray{
-  color: var( --color-lightgray);
+.color_lightgray {
+  color: var(--color-lightgray);
 }
-.color_lightgreen{
-  color:var( --color-lightgreen);
+.color_lightgreen {
+  color: var(--color-lightgreen);
 }
 /* background color  */
-.bg_body{
+.bg_body {
   background-color: var(--bg-body);
 }
-.bg_line{
+.bg_line {
   background-color: var(--bg-line);
+}
+.color_body {
+  color: var(--bg-body);
 }
