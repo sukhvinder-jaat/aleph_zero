@@ -29,6 +29,9 @@
   --color-lightgray: #bccbd6;
   --color-lightgreen: #00ccab;
   --bg-line: #00eac7;
+  --color-footer_box: #1b2b38;
+  --color-input_border: #0f171f;
+  --color-input_background: #0f171f;
 }
 /* font size  */
 .fs_xsm {
@@ -115,6 +118,9 @@
 .bg_line {
   background-color: var(--bg-line);
 }
-.color_body {
+.color_nbody {
   color: var(--bg-body);
+}
+.bg_input {
+  background-color: var(--color-input_background);
 }
