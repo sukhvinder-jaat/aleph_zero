@@ -5,3 +5,26 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+/* nav bar  */
+.nav_show .bg_nav_black {min-height: 100vh;}
+.nav_show {
+  position: fixed;
+  opacity: 0;
+  background-color: transparent;
+  transition: all 0.6s linear;
+  left: 0%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: -4;
+  clip-path: circle(0px at calc(100% - 45px) 45px);
+  top: 0;
+}
+.nav_show.showw {
+  opacity: 1;
+  min-height: 100vh;
+  z-index: 6;
+  clip-path: circle(75%);
+  background-color: var(--color-clr_black) !important;
+}
