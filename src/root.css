@@ -118,3 +118,6 @@
 .color_body {
   color: var(--bg-body);
 }
+.bg_button{
+background: #0F3034;
+}

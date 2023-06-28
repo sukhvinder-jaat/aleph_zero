@@ -14,15 +14,17 @@ const MyNav = () => {
   }
   return (
     <>
-      <div className=" bg_body">
+      <div className=" bg_body ">
         {/* btn */}
         <div className=" d-flex justify-content-between d-lg-none align-items-center px-4 py-3">
           <span>
-            <img
-              src={nav_btn}
-              alt="nav_btn"
-              className="w-100 position-relative z_10"
-            />
+            <a href="#">
+              <img
+                src={nav_btn}
+                alt="nav_btn"
+                className="w-100 position-relative z_10"
+              />
+            </a>
           </span>
           <h2
             onClick={clickshow}
@@ -38,14 +40,16 @@ const MyNav = () => {
               <div className="nav_container">
                 <div className=" d-flex align-items-center flex-lg-row flex-column justify-content-center justify-content-lg-between  vh_100_992">
                   <span className=" d-lg-block d-none">
-                    <img src={nav_btn} alt="nav_logo" />
+                    <a href="#">
+                      <img src={nav_btn} alt="nav_logo" />
+                    </a>
                   </span>
 
                   <ul className="d-flex align-items-center mb-lg-0 flex-lg-row flex-column ps-0 gap-lg-0 gap-2 mb-4">
                     <li>
                       <a
                         href="#"
-                        className="color_white fs_lg fw_300 ff_karla me-lg-4"
+                        className="color_white fs_lg fw_300 hover_line position-relative ff_karla me-lg-4"
                       >
                         Explore
                       </a>
@@ -53,7 +57,7 @@ const MyNav = () => {
                     <li>
                       <a
                         href="#"
-                        className="color_white fs_lg fw_300 ff_karla me-lg-4"
+                        className="color_white fs_lg fw_300 hover_line position-relative ff_karla me-lg-4"
                       >
                         Build
                       </a>
@@ -61,18 +65,21 @@ const MyNav = () => {
                     <li>
                       <a
                         href="#"
-                        className="color_white fs_lg fw_300 ff_karla me-lg-4"
+                        className="color_white fs_lg fw_300 hover_line position-relative ff_karla me-lg-4"
                       >
                         Community
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="color_white fs_lg fw_300 ff_karla">
+                      <a
+                        href="#"
+                        className="color_white hover_line position-relative fs_lg fw_300 ff_karla"
+                      >
                         Content
                       </a>
                     </li>
                   </ul>
-                  <button className="color_body fs_xsm ff_inter fw_500 rounded-pill bg_line border-0 nav_btn">
+                  <button className="color_body header_card position-relative overflow-hidden fs_xsm ff_inter fw_500 rounded-pill bg_line border-0 nav_btn">
                     Explore the ecosystem
                   </button>
                 </div>
