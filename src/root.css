@@ -1,3 +1,118 @@
-.sdfv {
-  width: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Karla:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.ff_inter {
+  font-family: "Inter", sans-serif;
+}
+.ff_karla {
+  font-family: "Karla", sans-serif;
+}
+:root {
+  /* font size  */
+  --fs-xsm: 13px;
+  --fs-sm: 14px;
+  --fs-md: 15px;
+  --fs-lg: 16px;
+  --fs-xl: 17px;
+  --fs-2xl: 18px;
+  --fs-3xl: 20px;
+  --fs-4xl: 21px;
+  --fs-5xl: 22px;
+  --fs-6xl: 23px;
+  --fs-7xl: 24px;
+  --fs-8xl: 32px;
+  --fs-9xl: 34px;
+  --fs-10xl: 40px;
+  --fs-11xl: 42px;
+  /* color  */
+  --bg-body:#111B24;
+  --color-white:#FFFFFF;
+  --color-lightgray:#BCCBD6;
+  --color-lightgreen:#00CCAB;
+  --bg-line:#00EAC7;
+}
+/* font size  */
+.fs_xsm{
+  font-size: var( --fs-xsm);
+}
+.fs_sm{
+  font-size: var(--fs-sm);
+}
+.fs_md{
+  font-size: var(--fs-md);
+}
+.fs_lg{
+  font-size: var( --fs-lg);
+}
+.fs_xl{
+  font-size: var(--fs-xl);
+}
+.fs_2xl{
+  font-size: var(--fs-2xl);
+}
+.fs_3xl{
+  
+  font-size: var(--fs-3xl);
+}
+.fs_4xl{
+  font-size: var(--fs-4xl);
+}
+.fs_5xl{
+  font-size: var(--fs-5xl);
+}
+.fs_6xl{
+  font-size: var(--fs-6xl);
+}
+.fs_7xl{
+  font-size: var(--fs-7xl);
+}
+.fs_8xl{
+  font-size: var(--fs-8xl);
+}
+.fs_9xl{
+  font-size: var(--fs-9xl);
+}
+.fs_10xl{
+  font-size: var(--fs-10xl);
+}
+.fs_11xl{
+  font-size: var(--fs-11xl);
+}
+/* font weight  */
+.fw_300{
+  font-weight: 300;
+}
+.fw_400{
+  font-weight: 400;
+}
+.fw_500{
+  font-weight: 500;
+}
+.fw_600{
+  font-weight: 600;
+}
+.fw_700{
+  font-weight: 700;
+}
+.fw_800{
+  font-weight: 800;
+}
+.fw_900{
+  font-weight: 900;
+}
+/* colors  */
+.color_white{
+  color: var(--color-white);
+}
+.color_lightgray{
+  color: var( --color-lightgray);
+}
+.color_lightgreen{
+  color:var( --color-lightgreen);
+}
+/* background color  */
+.bg_body{
+  background-color: var(--bg-body);
+}
+.bg_line{
+  background-color: var(--bg-line);
 }
