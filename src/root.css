@@ -124,3 +124,6 @@
 .bg_input {
   background-color: var(--color-input_background);
 }
+.bg_button{
+background: #0F3034;
+}
