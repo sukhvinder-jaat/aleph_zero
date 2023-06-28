@@ -16,7 +16,7 @@ const MyNav = () => {
     <>
       <div className=" bg_body">
         {/* btn */}
-        <div className=" d-flex justify-content-between d-lg-none align-items-center px-4 pt-3">
+        <div className=" d-flex justify-content-between d-lg-none align-items-center px-4 py-3">
           <span>
             <img
               src={nav_btn}
